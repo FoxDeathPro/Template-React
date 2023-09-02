@@ -4,7 +4,9 @@ Pour télécharger le template : \
 `Git clone git@github.com:FoxDeathPro/Template-React.git`\
 Une fois télécharger, renommer le fichier avec le nom du nouveau projet !\
 Entrer dans le projet sur Visual Studio Code, ouvrir un terminal et rentrer la commande :\
-`git remote set-url "adresse du repositorie github du projet"`
+`git remote set-url "adresse du repositorie github du projet"`\
+Pour télécharger les dépendances du projet faire :\
+`npm update`
 
 # Prendre et donner sur Github
 
