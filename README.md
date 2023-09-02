@@ -1,3 +1,21 @@
+# Récupérer le template et le setup !
+
+Pour télécharger le template : ###`Git clone git@github.com:FoxDeathPro/Template-React.git`
+Une fois télécharger, renommer le fichier avec le nom du nouveau projet !
+Entrer dans le projet sur Visual Studio Code, ouvrir un terminal et rentrer la commande:
+git remote set-url "adresse du repositorie github du projet"
+
+# Prendre et donner sur Github
+
+## Pour prendre
+Pour prendre un repositorie faire : ###`git pull`
+
+## Pour envoyer
+Pour prendre un repositorie faire : ###`git add .`
+Pour prendre un repositorie faire : ###`git commit -m "infos modif du commit"`
+Pour prendre un repositorie faire : ###`git push`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
