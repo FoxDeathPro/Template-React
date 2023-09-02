@@ -1,0 +1,24 @@
+/*================================================
+                 themes.scss
+================================================*/
+
+
+
+:root {
+    --main-bg-color: #F5F5F5;
+    --card-shadow-color: #666666;
+    --primary-text-color: #000000;
+    --secondary-text-color: #303030;
+}
+
+[data-theme="dark"] {
+    --main-bg-color: #353535;
+    --card-shadow-color: #dadada;
+    --primary-text-color: #ebebeb;
+    --secondary-text-color: #c7c7c7;
+}
+
+$background: var(--main-bg-color) !default;
+$shadow: var(--card-shadow-color) !default;
+$main_text_color: var(--primary-text-color) !default;
+$second_text_color: var(--secondary-text-color) !default;
