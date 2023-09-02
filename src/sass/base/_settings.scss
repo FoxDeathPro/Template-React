@@ -1,0 +1,48 @@
+/*================================================
+                 settings.scss
+================================================*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+hgroup,
+nav,
+section,
+summary,
+a {
+  display: block;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+html {
+    background: $background;
+    color: $main_text_color;
+    -webkit-text-size-adjust: 100%; // 2
+    -ms-text-size-adjust: 100%; // 2
+}
+
+li{
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
